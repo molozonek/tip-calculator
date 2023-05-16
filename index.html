@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tip Calculator Project - HTML, CSS, JavaScript</title>
+</head>
+<body>
+  <div class="tip-calc">
+    <h1 class="tip-calc__title">Tip Calculator</h1>
+    <p class="tip-calc__subtitle">Enter the bill amount and tip percentage to calculate the total.</p>
+    <label for="bill" class="tip-calc__input-label">Bill amount:</label>
+    <input type="number" id="billAmount" class="tip-calc__input-field">
+    <label for="bill" class="tip-calc__input-label">Tip percentage:</label>
+    <input type="number" id="tipPercent" class="tip-calc__input-field">
+    <button id="calculate" class="tip-calc__button">Calculate</button>
+    <label for="total" class="tip-calc__total">Total:</label>
+    <span id="total" class="tip-calc__total"></span>
+  </div>
+
+  <script src="/src/pages/home-page/scripts/calculate.js"></script>
+
+  <script type="module" src="/src/global-scripts/main.js"></script>
+  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+</body>
+
+</html>
